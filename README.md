@@ -1,6 +1,6 @@
 # **BCGD Optimization Methods on Various Datasets**
 
-This project evaluates different optimization methods—**Classic Gradient Descent**, **Block Coordinate Gradient Descent (BCGD) with Randomized Rule**, and **BCGD with Gauss-Southwell Rule**—across three distinct datasets.
+This project was developed as part of the **Optimization for Data Science** course. It evaluates different optimization methods—**Classic Gradient Descent**, **Block Coordinate Gradient Descent (BCGD) with Randomized Rule**, and **BCGD with Gauss-Southwell Rule**—across three distinct datasets.
 
 ## **Overview**
 
@@ -11,7 +11,7 @@ The objective is to compare the performance and convergence behaviors of the spe
 2. **BMI Dataset**: This dataset includes height, weight, and gender information, enabling binary classification to predict gender based on height and weight. The dataset is publicly available on Kaggle.  
    [BMI Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/bmidataset?utm_source=chatgpt.com)
 
-3. **Synthetic Blobs Dataset**: Generated using `make_blobs`, this dataset consists of well-separated clusters with only 5% of the data labeled, simulating semi-supervised learning scenarios.
+3. **Synthetic Dataset**: Generated using `make_blobs`, this dataset consists of well-separated clusters with only 5% of the data labeled, simulating semi-supervised learning scenarios.
 
 ## **Goals**
 
@@ -39,8 +39,8 @@ The objective is to compare the performance and convergence behaviors of the spe
 
 ## **Authors**
 
-- **Your Name** (Your Email)
-- **Your Colleague's Name** (Colleague's Email)
+- **Sofia Bazzan**
+- **Diletta Pasin** (Colleague's Email)
 
 ## **Contact**
 
