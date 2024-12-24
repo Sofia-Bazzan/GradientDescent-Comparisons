@@ -24,13 +24,6 @@ The objective is to compare the performance and convergence behaviors of the spe
 - **BCGD with Randomized Rule**: An optimization method that updates a randomly selected block of coordinates in each iteration.
 - **BCGD with Gauss-Southwell Rule**: An optimization technique that selects the block with the maximum gradient magnitude for updating, aiming for more efficient convergence.
 
-## **Datasets**
-
-1. **Breast Cancer Dataset**: Accessible via scikit-learn's `load_breast_cancer` function.
-2. **BMI Dataset**: Available on Kaggle, this dataset includes height, weight, and gender information.  
-   [BMI Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/bmidataset?utm_source=chatgpt.com)
-3. **Synthetic Blobs Dataset**: Created using scikit-learn's `make_blobs` function, with 5% labeled data to mimic semi-supervised learning conditions.
-
 ## **Key Insights**
 
 - Evaluated the convergence rates and stability of each optimization method across different datasets.
