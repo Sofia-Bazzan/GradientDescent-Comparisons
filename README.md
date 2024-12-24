@@ -40,8 +40,4 @@ The objective is to compare the performance and convergence behaviors of the spe
 ## **Authors**
 
 - **Sofia Bazzan**
-- **Diletta Pasin** (Colleague's Email)
-
-## **Contact**
-
-For questions or feedback, please open an issue in this repository.
+- **Diletta Pasin**
