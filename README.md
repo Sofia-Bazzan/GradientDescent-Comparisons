@@ -6,12 +6,18 @@ This project was developed as part of the **Optimization for Data Science** cour
 
 The objective is to compare the performance and convergence behaviors of the specified optimization algorithms on:
 
-1. **Breast Cancer Dataset**: Imported using `sklearn.datasets.load_breast_cancer`, this dataset contains features computed from breast cancer digitized images to classify malignant and benign tumors.
+1. **Breast Cancer Dataset**:  
+   Imported using `sklearn.datasets.load_breast_cancer`, this dataset contains features computed from breast cancer digitized images to classify malignant and benign tumors.  
+   **Code**: See [`breast_cancer_dataset.py`](./breast_cancer_dataset.py) for the implementation details.
 
-2. **BMI Dataset**: This dataset includes height, weight, and gender information, enabling binary classification to predict gender based on height and weight. The dataset is publicly available on Kaggle.  
-   [BMI Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/bmidataset?utm_source=chatgpt.com)
+2. **BMI Dataset**:  
+   This dataset includes height, weight, and gender information, enabling binary classification to predict gender based on height and weight. The dataset is publicly available on Kaggle:  
+   [BMI Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/bmidataset?utm_source=chatgpt.com)  
+   **Code**: See [`bmi_dataset.py`](./bmi_dataset.py) for the implementation details.
 
-3. **Synthetic Dataset**: Generated using `make_blobs`, this dataset consists of well-separated clusters with only 5% of the data labeled, simulating semi-supervised learning scenarios.
+3. **Synthetic Dataset**:  
+   Generated using `make_blobs`, this dataset consists of well-separated clusters with only 5% of the data labeled, simulating semi-supervised learning scenarios.  
+   **Code**: See [`synthetic_dataset.py`](./synthetic_dataset.py) for the implementation details.
 
 ## **Goals**
 
